@@ -1,0 +1,35 @@
+{
+  "paths": [
+    {
+      "name": "/items",
+      "lambdaFunction": "ampreactcd43bd30",
+      "privacy": {
+        "open": true
+      },
+      "policyResourceName": "/items"
+    }
+  ],
+  "resourceName": "apiacbdfa43",
+  "apiName": "apiacbdfa43",
+  "functionArns": [
+    {
+      "lambdaFunction": "ampreactcd43bd30"
+    }
+  ],
+  "privacy": {
+    "auth": 0,
+    "unauth": 0,
+    "authRoleName": "amplify-ampreact-dev-150920-authRole",
+    "unAuthRoleName": "amplify-ampreact-dev-150920-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "ampreactcd43bd30",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}
